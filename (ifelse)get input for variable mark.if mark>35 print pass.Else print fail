@@ -1,0 +1,8 @@
+mark=int(input("A:"))
+if(mark>35):
+    print("Pass")
+else:
+    print("Fail")
+
+o/p: A:32
+    Fail       oterwise if A: is gerater then 35 is wil display true
