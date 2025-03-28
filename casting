@@ -1,0 +1,9 @@
+casting is convert one datatype into another. example: if we give anything by double qutation ("") it will take as string.so it will give the output by joining the two words.
+
+a=int("10")
+b=int("20")
+c=a+b
+print(c)
+
+
+output:  30  ( Here we denote the numbers are integer(int) . so denote its variable name )
