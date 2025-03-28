@@ -1,0 +1,8 @@
+a=int(input("A:"))
+b=int(input("B:"))
+c=a+b
+print(c)
+
+o/p: A:30
+     B:40
+     70      its a get user from input that means after we run the program the o/p will showe what we give in the programe of input it will showe in the o/p .its only get user from the input
