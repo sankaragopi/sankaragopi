@@ -1,0 +1,8 @@
+income=int(input("Monthly income:"))
+if(income>=7000):
+        print("Scholarship is avaliable")
+else:
+        print("Not elegible for scholarship")
+
+o/p:  Monthly income:6500
+      not elegible for scholarship. if it greater than 7000 or equal to 7000 it will shoe scholarship in avalible
