@@ -1,0 +1,12 @@
+Score=int(input("Enter the Mark:"))
+if(Score<35):
+    print("Poor student")
+elif(Score>35 and Score<70):
+    print("Average student")                                      
+else:
+    print("Good student")
+
+                      NOTE:  its a elif condition method and the elif is used in after the if and the else is in last part of the program.
+
+      In the program if we give the score is 65 and we get the o/p answer in elif(Score>35 and Score<70): part .so the program is not go to the else part.if we give normal double if and else part an
+if we get the answer in  second if and the program will also goto the else part and check it.so only we avoid those else cheking part we use elif condition to stop it
