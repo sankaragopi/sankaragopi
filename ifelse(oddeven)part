@@ -1,0 +1,8 @@
+Number=int(input("Enter the Number:"))
+if(Number%2==0):
+    print("EVEN")
+else:
+    print("ODD")
+
+o/p:
+  if the number divisible by 2 and the remainder will 0 its print if part ("EVEN") otherwise it has some number it will print its else part("ODD")
