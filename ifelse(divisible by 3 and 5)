@@ -1,6 +1,6 @@
 A=int(input("Number:"))
 if(A%3==0 and A%5==0):
-    print("The number is divisible by 3 and 5")
+    print("The number is divisible by 3 and 5")                                                                      { binary operators are AND,OR,NOT }
 else:
     print("The number is not divisible by 3 and 5")
 
