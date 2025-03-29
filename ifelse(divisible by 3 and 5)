@@ -1,0 +1,10 @@
+A=int(input("Number:"))
+if(A%3==0 and A%5==0):
+    print("The number is divisible by 3 and 5")
+else:
+    print("The number is not divisible by 3 and 5")
+
+o/p: if we give 15 its divisible by both 3 and 5.so it display the if part ("The number is divisible by 3 and 5")                  NOTE:
+                                                                                                                                      And means the condition both are true only the output will excute.
+                                                                                                                                      Or means the condition only one true also the output will excute.
+%= means the remainder will be 0
