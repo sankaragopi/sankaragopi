@@ -1,0 +1,21 @@
+a=int(input("Enter Number:"))
+b=int(input("Enter Number:"))
+operation=input("add/sub/multi/div:")
+if(operation=="add"):                                                
+    print(a+b)
+elif(operation=="sub"):
+    print(a-b)                                                     NOTE:  if condition first and after that elif is contain more than one and after it the else is in last statement.
+elif(operation=="multi"):
+    print(a*b)
+elif(operation=="div"):
+    print(a/b)
+else:
+    print("Invalid operator")                    
+
+    o/p:
+        a=2
+        b=2
+        operation=add
+        4
+     After we enter two numbers and it will ask the operation status like {operation=input("add/sub/multi/div:")} .after it we give add or sub like that it go to if condition and check it and proceed
+it correct statement and print it out.
