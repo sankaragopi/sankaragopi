@@ -1,0 +1,11 @@
+                                                                      Inside if condition we get input
+
+
+A=int(input("Enter percentage:"))
+if(A>70):
+    name=input("Enter your name:")
+    department=input("Enter your department:")
+    location=input("Enter your location:")
+    print("you are elegible")
+else:
+    print("you are not elegible")
