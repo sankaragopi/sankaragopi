@@ -1,0 +1,19 @@
+count the odd and even number between 1 to 10
+sampla o/p:
+        even 5
+        odd 5  
+
+
+even=0
+odd=0
+for i in range(1,4):
+    if(i%2==0):
+        even=even+1      
+    else:
+        odd=odd+1
+print("Even ",even)
+print("Odd ",odd)
+                           explanation: Here we count 1,2,3 these three number to find even first. if it even then count even=even+1 else odd=odd+1.And the loop will execute four times 
+o/p:                                    and the loop will find untill even or odd and count and print it the even count and odd count
+    even 1
+    odd 2                   note : The space are the main it the python program 
