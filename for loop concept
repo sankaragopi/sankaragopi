@@ -1,7 +1,7 @@
 for loop
 
     for i in "apple":
-        print(i)        ---->  i is a varaiable the string "apple" is stored in the varaia      ble i for untill loop is summing
+        print(i)        ---->  i is a varaiable the string "apple" is stored in the varaiable i for untill loop is summing
 
 o/p:
     a
