@@ -2,5 +2,27 @@ PIVOT TABLE:
 
 this is used to quickly summarized large datasets and analyzes trends without writing complex formula.
 
+Salesperson	  Region	  Orders	  Total sales
+
+  Gopi	        East	     2000	      1500
+  Gopi	        West	     9000	      8000
+  Gopi	        North	     3000	      2500          ----> Now its a datas about the salesperson and theyer sales and order if we summarize this data according to tha person those who are sales is high and where the region 
+  Gopi	        South	     300	      100        has high saleing region.so these are finding by useing PIVOT TABLE of easly filter and easly split it.          
+  Sankar	      East	     855500	    65000
+  Sankar	      West	     92000	    65500        ---> In this if we going to use the PIVOT TABLE method the HEADING are should be BOLD and If we give a name the name should be correct in space and correct letter format.
+  Sankar	      North	     30000	    60000      otherwise it will make a error on it or no more will value display.
+  Sankar	      South	     500	      200
+  Eswara	      East	     40020	    51000
+  Eswara	      West	     2000	      92000
+  Eswara	      North	     85000	    5600
+  Eswara	      South	     4000	      2000
+  Pandi	        East	     5000	      2000
+  Pandi	        West	     25000	    5000
+  Pandi	        North	     300000	    95000
+  Pandi	        South	     900000	    30000
+  Nishal	      East	      600000	  60005
+  Nishal	      West	      30250	    450000
+  Nishal	      North	      980000	  81000
+  Nishal	      South	      54000	    84000
 
 
