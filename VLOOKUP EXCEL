@@ -1,0 +1,23 @@
+Vlookup:
+  VLOOKUP is a function to lookup and retrive data in a table.
+
+SYNTAX:
+  VLOOKUP(lookup-value,table,array,col-index-num,[range-lookup])
+
+  VLOOKUP(What you want to look up, Where you want to look for it, The column no is range containing the value to return, Approximate or excat match---> 1/TRUE, 0/FALSE)
+    
+
+Employe Name 	Employe ID	Domain	Salary
+Sankar	ED0001	Manager	Rs.1000000
+Gopi	ED0002	Staff	Rs.50000                  Here the Emlploye Name, Employe ID, Domain and Salary are there. so we find the salary or other details about the employe of formula
+Eswara	ED0003	Staff	Rs.1000002
+Pandi	ED0004	Staff	Rs.1000003
+Nishal	ED0005	Staff	Rs.1000004
+Viki	ED0006	Staff	Rs.1000005
+Simman	ED0007	Staff	Rs.1000006
+Kowsi	ED0008	Staff	Rs.1000007
+Jaya	ED0009	Staff	Rs.1000008
+Ram	ED0010	Staff	Rs.1000009
+Naresh	ED0011	Staff	Rs.1000010
+Kumar	ED0012	Staff	Rs.1000011
+Rishi	ED0013	Staff	Rs.1000012
