@@ -3,6 +3,16 @@ b=int(input("B:"))
 c=a+b
 print(c)
 
-o/p: A:30
-     B:40
+o/p:  { A:30          --> it is the concept of getting input from user.
+        B:40  }
      70      its a get user from input that means after we run the program the o/p will showe what we give in the programe of input it will showe in the o/p .its only get user from the input
+
+
+A=str(input("A:"))
+B=str(input("B:"))
+print(A+B)
+
+o\p:
+  { A:2         --> it is the concept of getting input from user.
+    B:2 }
+    22 because here the 2 is string.so it will combine the both and give 22
