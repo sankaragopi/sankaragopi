@@ -1,4 +1,27 @@
-income=int(input("Monthly income:"))
+ifelse:
+
+1.Meghna=input("Meghna Died or Not?")
+if(Meghna=="Died"):
+    print("Surya Meeta Priya")
+else:
+    print("Surya weds Meghna")
+
+o/p:
+Meghna Died or Not? Not  --> here the the input is Not so it will go IF condition and check Not==Died
+Surya weds Meghna            its not Equal so it will print Else condition 
+
+
+2.Mark=int(input("mark:"))
+if(Mark>=35):
+    print("PASS")
+else:
+    print("FAIL")
+
+o/p:
+mark:35
+PASS
+
+3.income=int(input("Monthly income:"))
 if(income>=7000):
         print("Scholarship is avaliable")
 else:
