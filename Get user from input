@@ -17,4 +17,39 @@ print(A+B)
 o\p:
   { A:2         --> it is the concept of getting input from user.
     B:2 }
-    22 because here the 2 is string.so it will combine the both and give 22
+    22   because here the 2 is string.so it will combine the both and give 22
+
+
+A=int(input("a:"))
+B=int(input("b:"))
+C=int(input("c:"))
+multiple=A*B*C
+Add=A+B+C
+Divid=multiple/Add
+print(Divid)
+
+o/p:
+   a:2        multiple=2*3*4 = 24
+   b:3        Add=2+3+4 =9        
+   c:4        divide = 24/9
+   2.6666666666666665
+
+
+Name=input("name:")
+Score=INT(input("score:"))  --> Here wwe give the INT datatype of were you give the numbers.
+Department=input("dept:")     NOTE: The input() always returns string (text). so if you give a num you will give there datatype
+print("My Name is:",Name)
+print("My Score is:",Score/10,"/10") -- Here the "/10" it will add in the o/p
+print("My department is:",Department)
+
+
+o/p:
+name:sankaragopi
+score:78
+dept:EEE
+
+My Name is: sankaragopi
+My Score is: 7.8/10
+My department is: EEE
+
+
