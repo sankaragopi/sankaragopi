@@ -1,4 +1,4 @@
-                            inside if condition
+                        NESTED IF (inside if condition)
 
 salary=int(input("Enter the salary:"))
 age=int(input("Enter the age:"))
@@ -10,3 +10,9 @@ if(salary>=20000 or age<=25):
         print("maximum loan amount is 50000")
 else:
     print("you are not elgible for loan")
+O/P:
+salary:30000   -->     if(salary>=20000 or age<=25): Here the salary OR Age will be match the if Condition statement the If condition run and execute the next query  loan=int(input("Enter loan amount:"))
+Age:26                  Then the Loan Amount is less than or equal to 50000. it will print IF statement if Loan amount is max of 50000. it will print ELSE 
+loan Amount:40000        statement. Note --. If the salaray and Age both are not match on the query of if(salary>=20000 or age<=25): thi it will run the second ELSE Statement
+
+you are eligible for loan
