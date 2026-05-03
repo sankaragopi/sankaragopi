@@ -1,3 +1,5 @@
+elif:
+
 a=int(input("Enter Number:"))
 b=int(input("Enter Number:"))
 operation=input("add/sub/multi/div:")
@@ -19,3 +21,38 @@ else:
         4
      After we enter two numbers and it will ask the operation status like {operation=input("add/sub/multi/div:")} .after it we give add or sub like that it go to if condition and check it and proceed
 it correct statement and print it out.
+
+NOTE:
+
+Situation	               --        Use
+
+Multiple independent checks	      if, if, if
+Only one result needed	          if - elif - else ✅
+Default case required	          else ✅
+
+score = 80
+if score >= 90:               
+    print("A")
+if score >= 75:
+    print("B")
+if score >= 50:
+    print("C")
+
+👉 Output:
+
+B
+C
+
+⚠️ Problem:
+
+Multiple conditions become true
+So multiple outputs come ❌
+This is usually not what you want
+
+NOTE:
+
+✅ Correct rule
+
+👉 Always write higher condition first
+
+90 → 75 → 50 → else
