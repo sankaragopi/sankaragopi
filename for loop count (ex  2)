@@ -1,0 +1,87 @@
+1. print even number between 1 to 10
+
+for i in range(1,11):
+    if(i%2==0):
+        print(i)
+
+o/p:
+2
+4
+6
+8
+10
+   
+2. count the even number between 1 to 10  -->(outside loop)
+
+count=0           
+for i in range(1,11):
+    if(i%2==0):
+      count=count+1
+print(count)
+
+o/p:
+5
+
+working method:
+step1:
+    count=0
+step2:
+    for i in range(1,11): -->(1,2,3,4,5,6,7,8,9,10)
+step3:
+    i=1 != 0 (skip)
+    i=2 ==0  --->count=0+1 --->count=1
+    i=3 (skip)
+    i=4 ==0  --->count=1+1 -->count=2
+    i=5 (skip)
+    i=6 ==0 --> count=2+1 -->count=3
+    i=7 (skip)
+    i=8 ==0 -->count=3+1  --->count=4
+    i=9 (skip)
+    i=10 ==0 -->count=4+1  --->count=5 ---> o/p
+step4:
+    print(count)
+    o/p:
+    5
+
+3. count the even number between 1 to 10  -->(inside  loop):
+
+count = 0
+for i in range(1,11):
+    if i % 2 == 0:
+        count = count + 1
+        print(count)
+
+🔍 Execution
+👉 Initial:
+step1:
+        count = 0
+step2:
+    🔁 Loop:
+        i = 1 → skip
+        i = 2
+        even ✅
+        count = 1
+            print → 1
+        i = 3 → skip
+        i = 4
+        count = 2
+            print → 2
+        i = 5 → skip
+        i = 6
+        count = 3
+            print → 3
+        i = 7 → skip
+        i = 8
+        count = 4
+            print → 4
+        i = 9 → skip
+        i = 10
+        count = 5
+            print → 5
+step3:
+✅ Final Output:
+    1
+    2
+    3
+    4
+    5
